@@ -15,7 +15,7 @@
 // a wrapper for calling Pd's sys_register_loader()
 //
 /////////////////////////////////////////////////////////
-#ifdef _MSC_VER
+#if (_MSC_VER < 1900)
 # pragma warning( disable: 4091)
 # define snprintf _snprintf
 #endif /* _MSC_VER */

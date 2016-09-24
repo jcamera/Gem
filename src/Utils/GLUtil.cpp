@@ -42,7 +42,10 @@ GLenum gem::utils::gl::glReportError (bool verbose)
     return err;
 }
 
+#ifndef _MSC_VER
 #warning TODO: use gem::ContextData
+#endif
+
 using namespace gem::utils::gl;
 struct gem::utils::gl::GLuintMap::PIMPL {
   std::map<float, GLuint>idmap;
