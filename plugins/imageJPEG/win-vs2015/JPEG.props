@@ -13,7 +13,7 @@
   </ItemGroup>
   <ItemDefinitionGroup>
     <ClCompile>
-      <AdditionalIncludeDirectories>$(JPEG_DIR)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(JPEG_DIR)\include;%(AdditionalIncludeDirectories);$(PD_DIR)\src</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>HAVE_LIBJPEG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>

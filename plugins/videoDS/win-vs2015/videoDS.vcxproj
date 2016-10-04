@@ -29,15 +29,15 @@
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDummy|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
     <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
-    <Import Project="..\..\..\build\win-vce2010\plugin.props" />
+    <Import Project="..\..\..\build\win-vs2015\plugin.props" />
     <Import Project="altbase.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
     <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
-    <Import Project="..\..\..\build\win-vce2010\plugin.props" />
-    <Import Project="..\..\..\build\win-vce2010\DirectShow.props" />
-    <Import Project="..\..\..\build\win-vce2010\altbase.props" />
+    <Import Project="..\..\..\build\win-vs2015\plugin.props" />
+    <Import Project="..\..\..\build\win-vs2015\DirectShow.props" />
+    <Import Project="..\..\..\build\win-vs2015\altbase.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>

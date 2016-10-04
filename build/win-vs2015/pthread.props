@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Label="UserMacros">
-    <PTHREAD_DIR>C:\Users\John\version-control\3rdparty\pthreads-w32-2-9-1-release\Pre-built.2</PTHREAD_DIR>
+    <PTHREAD_DIR>$(ProjectDir)..\..\3rdparty\pthreads-w32-2-9-1-release\Pre-built.2</PTHREAD_DIR>
     <PD_DIR>C:\pd</PD_DIR>
   </PropertyGroup>
   <PropertyGroup>
